@@ -30,6 +30,7 @@ __________________________________________________*/
 .home h1 {
     margin-top: 0;
 }
+
 /* Navigation
 ---------------------------------------*/
 nav {
@@ -49,10 +50,10 @@ nav .topnav li.mobile {
     display: none;
 }
 @media (max-width: 903px) {
-    nav. topnav ul li {
+    nav .topnav ul li {
         display: none;
     }
-    nav .topnac ul li.mobile {
+    nav .topnav ul li.mobile {
         display: inline-block;
     }
     nav .eight.columns,
@@ -75,7 +76,7 @@ nav .topnav li.mobile {
     margin: 0;
     padding: 0;
 }
-.topnav ul lis {
+.topnav ul li {
     display: inline-block;
     vertical-align: top;
 }
@@ -143,12 +144,12 @@ ul.breadcrumb {
     list-style: none;
 }
 ul.breadcrumb li {
-    display: inline
+    display: inline;
 }
 ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
-    content: "/\00a0"
+    content: "/\00a0";
 }
 
 /* Grid
